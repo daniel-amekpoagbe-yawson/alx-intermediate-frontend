@@ -1,2 +1,15 @@
-I first created the folder
- i then install the sass using the comand -- npm install sass -v 3.7.4
+Steps to install SASS
+
+1. Installed Node Version Manager (nvm)
+   $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+   Closed and reopened terminal
+
+2. Installed Node.js version 20.16
+   $ nvm install 20.16
+   $ nvm use 20.16
+
+3. Installed SASS
+   $ npm install sass@3.7.4
+
+4. Verified SASS installation
+   $ npx sass --version
